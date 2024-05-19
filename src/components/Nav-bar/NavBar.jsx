@@ -1,7 +1,10 @@
-import React from 'react'
 import './NavBar.css'
+import { FaSearch } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+
 
 const NavBar = () => {
+
   return (
     <div className="navbar">
         <img src= "/Assets/logo.png" alt="" className="logo" />
@@ -12,8 +15,14 @@ const NavBar = () => {
             <li>Contact us</li>
         </ul>
 
-        <div className='navbar-right'>
+        <div className="navbar-right">
+          <FaSearch />
+        
+        <div className="cart">
+          <FaShoppingCart/>
+        </div>
 
+        <button className='sign_btn'>Sign in</button>
         </div>
     </div>
   )
