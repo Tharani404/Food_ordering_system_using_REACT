@@ -2,3 +2,44 @@
     width: 50px;
     height: 50px;
 }
+
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menue{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #45557e;
+    cursor: pointer;
+}
+
+.navbar-menue:hover{
+    background-color: rgb(125, 236, 132);
+}
+
+.navbar-right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.sign_btn{
+    background: transparent;
+    font-size: 16px;
+    color: #45557e;
+    border: 1px solid rgb(3, 96, 20);
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button:hover{
+    background-color: rgb(125, 236, 132);
+}
